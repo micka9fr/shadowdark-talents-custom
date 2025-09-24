@@ -39,6 +39,15 @@
           "minimum": "1.0.0"
         }
       }
+    ],
+    "modules": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
     ]
   },
   "url": "https://github.com/micka9fr/shadowdark-talents-custom",
