@@ -1,0 +1,16 @@
+{
+  "_id": "maitrise-des-ombres",
+  "name": "Maîtrise des Ombres",
+  "type": "Talent",
+  "img": "icons/skills/movement/shadow-stealthy-hidden.webp",
+  "system": {
+    "description": "Vous gagnez un avantage sur les tests de Dextérité (Discrétion) dans l'obscurité ou les ombres.",
+    "level": 1,
+    "type": "ancestry",
+    "properties": {
+      "advantage": {
+        "stealthInDarkness": true
+      }
+    }
+  }
+}
