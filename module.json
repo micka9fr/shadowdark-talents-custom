@@ -1,0 +1,47 @@
+{
+  "id": "shadowdark-talents-custom",
+  "title": "Talents Custom pour Shadowdark",
+  "description": "Un module ajoutant des talents personnalisés pour le système Shadowdark sur Foundry VTT.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Ton Nom"
+    }
+  ],
+  "esmodules": ["scripts/main.mjs"],
+  "styles": ["styles/style.css"],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "talents-custom",
+      "label": "Talents Custom",
+      "system": "shadowdark",
+      "path": "packs/db/talents.db",
+      "type": "Item"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "shadowdark",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/micka9fr/shadowdark-talents-custom",
+  "manifest": "https://github.com/micka9fr/shadowdark-talents-custom/main/module.json",
+  "download": "https://github.com/micka9fr/shadowdark-talents-custom/archive/main.zip"
+}
