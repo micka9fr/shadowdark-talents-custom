@@ -2,7 +2,7 @@
   "_id": "force-titan",
   "name": "Force de Titan",
   "type": "Talent",
-  "img": "icons/skills/melee/strike-axe-powerful.webp",
+  "img": "icons/svg/mystery-man.svg",
   "system": {
     "description": "Vous ajoutez +2 aux dégâts des attaques au corps-à-corps avec des armes à deux mains.",
     "level": 2,
